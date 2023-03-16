@@ -1,4 +1,7 @@
-// TODO: import instances of npm modules, set up connection to server, isolate to individual connection.js page
+// TODO: set up connection to server, isolate to individual connection.js page
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
-require('console.table');
+const ctable = require('console.table');
+const express = require('express');
+
+const routes = require('./routes');
