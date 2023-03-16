@@ -6,3 +6,11 @@ const express = require('express');
 require('console.table');
 
 const routes = require('./routes');
+
+// import sequelize connection, separated to connection.js for clarity
+const sequelize = require('./config/connection');
+
+// establish an instance of express and assign to connection in config.js, 3001 used as a backup
+const app = express();
+const PORT = process.env.PORT || 3001;
+
