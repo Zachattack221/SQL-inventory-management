@@ -5,7 +5,7 @@ const express = require('express');
 // const ctable = 
 require('console.table');
 
-const routes = require('./routes');
+const routes = require('./routes/api');
 
 // import sequelize connection, separated to connection.js for clarity
 const sequelize = require('./config/connection');
