@@ -22,7 +22,9 @@ This application leverages the following npm packages:
 
 
 ## Visuals
-
+![]()
+![]()
+![]()
 
 ## License
 This application is licensed with the MIT License.
