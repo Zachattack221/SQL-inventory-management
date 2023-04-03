@@ -19,7 +19,13 @@ This application leverages the following npm packages:
 [Sequelize](https://www.npmjs.com/package/sequelize) are used to connect the application to a MySQL database, allowing a user to successfully create, read, update, and delete information within the database. 
 
 ## Installation
+Run 'npm i' within the console, located at the root level of the directory. This will pull in the necessary node modules/packages.
 
+Following the package install, run "mysql -u root" to open sequel terminal, then enter "SOURCE db/schema.sql" to establish our database in use (inventory_db). From this point please "exit" sequel shell. 
+
+Once database is created, enter "npm run seed" within the terminal to seed the content from the seeds folder.
+
+Lastly, enter "npm run start" in the console. This will open a port at localhost:3001, accessible when 'localhost:3001' searched in browser, or when opened via Insomnia as demonstrated in the video link provided above.S
 
 ## Visuals
 ![]()
